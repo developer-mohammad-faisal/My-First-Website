@@ -1,7 +1,54 @@
 body{
   font-family: 'Merriweather', serif;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.welcome-style{
+
+
+.personal{
   display: flex;
+  background-image: url(top-banner.png);
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+
+
+.personal-text{
+  width: 50%;
+  padding-left: 80px;
+}
+
+
+.personal-text p{
+  color: rgb(150, 3, 3);
+  width: 85%;
+  text-align: justify;
+}
+
+
+span{
+  color: blue;
+}
+
+
+.welcome-heading{
+  font-size: 40px;
+}
+
+
+.button{
+  padding: 10px 30px;
+  background-image: linear-gradient(#FF906C #FF7254);
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.personal-image{
+  width: 50%;
+}
+
+.personal-image img{
+  width: 80%;
 }
